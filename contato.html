@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <meta charset="utf=8">
+            <title>contato - barbearia alura</title>
+
+            <link rel="stylesheet" href="reset.css">
+            <link rel="stylesheet" href="style.css">
+    </head>  
+    <body>
+        <header>
+            <div  class="caixa">
+            <h1><img src="logo.png"></h1> 
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="produtos.html">produtos</a></li>
+                        <li><a href="contato.html">contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form >
+                <label for="nomesobrenome">Nome e sobrenome</label> 
+                <input type="text" id="nomesobrenome">
+                
+                <label for="email">email</ablel>
+                <input type="text" id="email">
+
+                <label for="telefone">telefone</label>
+                <input type="text" id="telefone">
+
+                <label for="mensagen">mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem"> </textarea>
+
+                <div>
+                    <p>como voce prefere o nosso contato</p>
+                    <label for="radio-email">email</label>
+                    <input type="radio" name="contato" value="email" id="radio-email">
+
+                    <label for="radio-telefone">telefone</label>
+                    <input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+                    <label for="radio-whatsapp">whatsapp</label>
+                    <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+
+                    <input type="submit" value="enviar formulario">
+                </div>
+
+                <label><input type="checkbox">voce gostaria de receber nossas novidades por email?</label>
+
+            </form>
+        </main>
+            
+        <footer>
+            <img src="logo-branco.png">
+            <p class="copyright">&copy; copyright VITORIA RODRIGUES alura - 2019</p>
+        </footer>
+    </body>
+</html>
